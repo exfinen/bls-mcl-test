@@ -9,9 +9,6 @@ class G1Point {
     G1Point();
     static void Init();
     mclBnG1 p;
-
-  private:
-    static mclBnG1 G;
 };
 
 #endif // G1POINT_H
