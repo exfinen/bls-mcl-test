@@ -8,6 +8,7 @@ class G1Point {
   public:
     G1Point();
     static void Init();
+    mclBnG1 p;
 };
 
-#endif // G1POINT_HPP
+#endif // G1POINT_H
