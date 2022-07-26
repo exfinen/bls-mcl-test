@@ -4,18 +4,19 @@
 #include <bls/bls384_256.h>
 #include <bls/bls.h>
 
-class Foo {
+class Tester {
   public:
-  void say() {
-    int err = blsInit(MCL_BLS12_381, MCLBN_COMPILED_TIME_VAR);
-    if (err != 0) {
-      printf("blsInit err %d\n", err);
-      exit(1);
+    void Init() {
+      int err = blsInit(MCL_BLS12_381, MCLBN_COMPILED_TIME_VAR);
+      if (err != 0) {
+        printf("blsInit failed: %d\n", err);
+        exit(1);
+      }
+      //mclBn_setETHserialization(1);
     }
-  }
 };
 
 int main() {
-  Foo foo;
-  foo.say();
+  Tester tester;
+  tester.Init();
 }
