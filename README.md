@@ -1,6 +1,6 @@
-# bls-mcl-ttest
+# bls-mcl-test
 
-## Getting and building `bls` and `mcl`
+## Getting and building `mcl` and `bls`
 ```
 $ git clone --recursive https://github.com/herumi/bls
 $ pushd bls
