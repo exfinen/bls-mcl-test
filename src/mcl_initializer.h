@@ -12,7 +12,7 @@ class MclInitializer {
       if (err != 0) {
         throw std::runtime_error("blsInit failed");
       }
-      mclBn_setETHserialization(1);
+      //mclBn_setETHserialization(1);
     }
 };
 
