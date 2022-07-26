@@ -1,6 +1,6 @@
 TARGET = bls-test
 INCDIR = -Ibls/include -Ibls/mcl/include
-LIBDIR = -L./bls/lib -L./bls/mcl/lib
+LIBDIR = -Lbls/lib -Lbls/mcl/lib
 LIBS = -lmcl -lbls384_256
 
 OBJDIR = src

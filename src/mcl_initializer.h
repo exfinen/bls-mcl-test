@@ -1,6 +1,7 @@
 #ifndef MCL_INITIALIZER_H
 #define MCL_INITIALIZER_H
 
+#define BLS_ETH
 #include <bls/bls384_256.h>
 #include <bls/bls.h>
 

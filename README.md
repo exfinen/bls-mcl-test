@@ -1,4 +1,4 @@
-# bls-mcl-test
+# bls-mcl-ttest
 
 ## Getting and building `bls` and `mcl`
 ```
