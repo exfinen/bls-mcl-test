@@ -1,5 +1,5 @@
-#ifndef MCL_INITIALIZER_H
-#define MCL_INITIALIZER_H
+#ifndef MCL_INITIALIZER_HPP
+#define MCL_INITIALIZER_HPP
 
 #define BLS_ETH
 #include <bls/bls384_256.h>
@@ -18,4 +18,4 @@ class MclInitializer {
     }
 };
 
-#endif // MCL_INITIALIZER_H
+#endif // MCL_INITIALIZER_HPP
