@@ -4,8 +4,8 @@
 #include <bls/bls384_256.h>
 #include <bls/bls.h>
 #include <mcl/impl/bn_c_impl.hpp>
-#include "./mcl_initializer.h"
+#include "./g1point.hpp"
 
 int main() {
-  printf("hello\n");
+  G1Point::Init();
 }

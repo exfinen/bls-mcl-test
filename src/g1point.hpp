@@ -2,7 +2,7 @@
 #define G1POINT_H
 
 #include <mcl/bn.hpp>
-#include <mcl_initializer.h>
+#include "mcl_initializer.h"
 
 class G1Point {
   public:
