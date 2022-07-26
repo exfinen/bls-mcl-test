@@ -4,6 +4,7 @@
 #define BLS_ETH
 #include <bls/bls384_256.h>
 #include <bls/bls.h>
+#include <stdio.h>
 
 class MclInitializer {
   public:
@@ -12,7 +13,8 @@ class MclInitializer {
       if (err != 0) {
         throw std::runtime_error("blsInit failed");
       }
-      //mclBn_setETHserialization(1);
+      mclBn_setETHserialization(1);
+      printf("bcl environment initialized\n");
     }
 };
 
